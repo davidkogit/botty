@@ -1,0 +1,21 @@
+{
+  "contract": "ES",
+  "point_value": 50.0,
+  "tick_size": 0.25,
+  "tick_value": 12.50,
+  "round_trip_cost_points": 0.35,
+  "bar_minutes": 5,
+  "tz": "America/New_York",
+  "session_end": "15:55",
+  "weights": { "pf": 0.5, "win_rate": 0.25, "avg_trade": 0.25 },
+  "caps": { "pf": 3.0, "win_rate": 0.8, "avg_trade_pts": 10.0 },
+  "split": [0.70, 0.15, 0.15],
+  "max_cycles": 25,
+  "min_trades_search": 100,
+  "min_trades_validation": 30,
+  "adopt_improvement_pct": 3.0,
+  "remove_tolerance_pct": 0.5,
+  "validation_guard_pct": 5.0,
+  "max_dd_ratio": 0.25,
+  "creative_escape_after_stalls": 3
+}
